@@ -26,3 +26,41 @@ The procedure joins data from the existing HR.employees table with a custom perf
 ## Technologies Used
 
 Project was made using PL/SQL in TOAD for Oracle, utilizing the HR schema in Oracle Database.
+
+---
+## Database Setup
+
+The following table and procedure were created in this project:
+
+- performance_reviews (Table)
+- generate_performance (Stored Procedure)
+
+---
+## Bonus Calculation Logic
+
+The procedure applies bonus percentages based on performance grade:
+
+A → 20% bonus
+
+B → 10% bonus
+
+C → 5% bonus
+
+D → 2% bonus
+
+Any other grade → 0% bonus
+
+Bonus Formula: `Bonus = Salary × Bonus Percentage`
+
+---
+## Usage
+
+- Ensure the HR schema is installed and contains employee data.
+- Create the performance_reviews table.
+- Insert performance records for employees with valid review dates.
+- Compile the generate_performance procedure in an Oracle environment.
+- Enable DBMS Output in TOAD.
+- Execute the procedure for a specific review period:
+
+
+
