@@ -22,7 +22,7 @@ on E.employee_id = P.employee_id
 Where p.review_period = p_Date
 )
 LOOP
---Calculate Bonus
+--Calculate Bonus on respective performance grade
 IF EMP.performance_grade = 'A' THEN
             v_bonus_pct := 0.20;
 
@@ -40,6 +40,7 @@ IF EMP.performance_grade = 'A' THEN
         END IF;
 V_bonus := emp.salary * v_bonus_pct;
 
+-- Print Output
  DBMS_OUTPUT.PUT_LINE(
             emp.employee_id || ' - ' ||
             emp.first_name || ' ' ||
