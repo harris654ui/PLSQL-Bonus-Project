@@ -6,7 +6,7 @@ CREATE TABLE hr.performance_reviews (
     comments         VARCHAR2(200)
 );
 
---Sample data to insert into table for testing purposes:
+--Sample data for testing////
 
 INSERT INTO hr.performance_reviews (employee_id, review_period, performance_grade, comments)
 VALUES (101, TO_DATE('2026-02-01','YYYY-MM-DD'), 'A', 'Outstanding leadership');
