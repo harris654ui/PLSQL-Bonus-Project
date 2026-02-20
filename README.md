@@ -7,7 +7,7 @@ This is a PL/SQL project that is designed to calculate employee bonuses based on
 
 This project automates performance based bonus calculation for employees. It evaluates employee performance grades for a specific review period and calculates a bonus percentage based on the designated grade.
 
-The procedure joins data from the existing HR.employees table with a custom performance_reviews table to generate the output.
+The procedure joins data from the pre existing HR.employees table with the performance_reviews table made in the project to generate the output.
 
 ---
 ## Key features include:
