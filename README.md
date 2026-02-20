@@ -29,8 +29,10 @@ Project was made using PL/SQL in TOAD for Oracle, utilizing the HR schema in Ora
 The following table and procedure were created in this project:
 
 - performance_reviews (Table)
-- generate_performance (Stored Procedure)
+#### Code for the table is available in the Table.sql file in the repo.
 
+- generate_performance (Stored Procedure)
+#### Code for the procedure is available in the Procedure.sql file in the repo.
 ---
 ## Bonus Calculation Logic
 
