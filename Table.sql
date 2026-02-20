@@ -3,7 +3,7 @@ CREATE TABLE hr.performance_reviews (
     employee_id      NUMBER REFERENCES hr.employees(employee_id),
     review_period    DATE,
     performance_grade CHAR(1) 
-    comments         VARCHAR2(200)
+    comments         VARCHAR2(100)
 );
 
 --Sample data for testing////
