@@ -128,7 +128,17 @@ Insert employee performance records with:
 * Valid `employee_id`
 * Valid `review_period` date
 * Appropriate `performance_grade`
+* Script used for this project:
+```
+INSERT INTO hr.performance_reviews (employee_id, review_period, performance_grade, comments)
+VALUES (101, TO_DATE('2026-02-01','YYYY-MM-DD'), 'A', 'Outstanding leadership');
 
+INSERT INTO hr.performance_reviews (employee_id, review_period, performance_grade, comments)
+VALUES (102, TO_DATE('2026-02-01','YYYY-MM-DD'), 'B', 'Strong performance overall');
+
+INSERT INTO hr.performance_reviews (employee_id, review_period, performance_grade, comments)
+VALUES (103, TO_DATE('2026-02-01','YYYY-MM-DD'), 'D', 'Needs improvement');
+```
 ---
 
 ### Step 4: Compile Procedure
